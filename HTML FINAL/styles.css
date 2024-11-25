@@ -5,8 +5,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #ffffff;
+    color: #ff0000;
+    /* help: https://www.w3schools.com/htmL/html_images_background.asp */
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
+
+
 
 
 
@@ -43,7 +50,7 @@ header {
 /* Slogan text style under the logo */
 .slogan {
     font-size: 1rem;
-    color: #ea00ff;
+    color: #8800ff;
     margin: 0;
 }
 
@@ -64,4 +71,38 @@ header {
 .nav-menu a {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+
+
+
+/* ============================== Footer ============================== */
+/* Footer styling across all pages */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8800ff;
+}
+
+
+/* senter the foot nav menu */
+.foot-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text for the foot nav menu */
+.foot-text,
+.foot-lnk {
+    margin: 0 15px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* link styles for the foot nav menu */
+.foot-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
