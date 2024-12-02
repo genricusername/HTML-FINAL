@@ -12,9 +12,67 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+/*About Us stuff*/
+.aboutUs{
+    background-image: url("images/about-bkg.jpg");
+    background-repeat: repeat;
+    background-size: 10rem;
 
+}
 
+.abouttxt{
+    color: black;
+    margin-left: 10%;
+    display:flex;
+    border: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    top:13rem;
+    position: absolute;
+    
+    max-width: 75%;
+    box-shadow: 10px 10px rgb(185, 6, 6);
+    
+}
+/*contact form stuff */
+.contactbody{
+    background-image: url(images/contact-bkg.jpg);
+    background-repeat: repeat;
+    background-size:10rem
+}
 
+.sorry{
+    color: rgb(0, 0, 0);
+    border: 2px;
+    border-style: solid;
+    background-color: white;
+    box-shadow: 10px 10px darkgrey;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 31%;
+}
+
+.contact{
+    color: black;
+    display: inline-block;
+    margin-left:35%;
+}
+#contactform{
+    border-radius: 3rem;
+    
+    margin-left: 35%;
+    margin-right: 50%;
+    width: 10rem;
+    height: 3rem;
+    background-color: #ff0000;
+    color: white;
+    font-size: 100%;
+}
+#contactform:hover{
+    background-color: #9c0000;
+    color: lightgrey;
+}
 
 
 /* ============================== Header and Navigation ============================== */
@@ -50,8 +108,9 @@ header {
 /* Slogan text style under the logo */
 .slogan {
     font-size: 1rem;
-    color: #8800ff;
+    color: #efb2fc;
     margin: 0;
+    text-shadow: -4px -5px 3px purple;
 }
 
 /* Menu list styles */
@@ -72,7 +131,9 @@ header {
     text-decoration: none;
     color: #ffffff;
 }
-
+.nav-menu li:hover{
+    box-shadow: 15px 10px rgb(192, 5, 5);
+}
 
 
 
@@ -83,6 +144,11 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #8800ff;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
 
 
