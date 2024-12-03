@@ -172,3 +172,108 @@ footer {
     color: #ffffff;
     text-decoration: underline;
 }
+/* styles for product page */
+.product{
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* styles for product cards */
+.card{
+    /* change width */
+    width:325px;
+    /* background white */
+    background-color: rgb(red);
+    /* change boarder color */
+    border-color: rgb(227, 17, 17);
+    /* add border */
+    border-style: solid;
+    /* round boarder */
+    border-radius: 8px;
+    /* hide overflow */
+    overflow: hidden;
+    /* margin */
+    margin: 20px;
+}
+
+.card:hover{
+    /* shadow cards */
+    box-shadow: 5px 5px 40px 20px rgba(255, 0, 0, 0.2);
+    /* get rid of boarder */
+    border-color: red;
+}
+
+.card img{
+    /* move image in card */
+    width: 100%;
+    height: auto;
+}
+
+.cardcontent{
+    /* add padding and background color */
+    padding: 16px;
+    background-color: red;
+}
+
+.cardcontent h3{
+    /* change font size and add margin */
+    color: white;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.cardcontent {
+    /* change font and text height */
+    color: white;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.ordercontainer {
+    /* create flexbox */
+    display: flex;
+    /* center */
+    justify-content: center;
+}
+
+.ordercontainer button{
+    /* change size */
+    font-size: 27px;
+    /* make white */
+    border-color: white;
+    color: white;
+    /* make background red */
+    background-color: red;
+    /* round button */
+    border-radius: 20%;
+    /* space from footer */
+    margin-bottom: 30px;
+}
+
+.ordercontainer button:hover{
+    /* change background and text color */
+    background-color: white;
+    color: red;
+    border-color: red;
+    /* become pointer */
+    cursor: pointer;
+}
+/* background */
+.contact{
+    background-image: url(images/contact-bkg.jpg);
+}
+/* center text for thanks page */
+.thanks{
+    text-align: center;
+}
+/* scroll behavior*/
+html {
+    scroll-behavior: smooth;
+}
+
+.logothingy{
+    width: 100%;
+    height: auto;
+}

@@ -28,17 +28,99 @@
             </ul>
         </nav>
     </header>
-
-
-
     <main>
-        <section>
-            <!-- stuff here -->
+        <section class="product">
+        <!-- logo -->
+        <img src="images/logo.png" alt="logo" class="logothingy">
+        <!-- slogan -->
+        <h2>Now you're playing with power!</h2>
+        <!-- display products -->
+        <h3>Our products:</h3>
+        <!-- create card for nes -->
+        <div class="cardcontainer">
+            <div class="card">
+                <!-- display image -->
+                <img src="images/Nes-transparent-improved.png" alt="nes">
+                <div class="cardcontent">
+                    <!-- display the info for the system -->
+                    <h3>Nintendo Entertainment System</h3>
+                    <p>The Nintentdo Entertainment System comes is capable of running hundreds of games with ease, coming with the Ricoh 2A03 CPU and 4kb of RAM.
+                        This System comes with 2 controllers so you can play with friends!</p>
+                        <!-- show price -->
+                    <p>$149.99!</p>
+                </div>
+            </div>
+            <!-- create card for donkey kong -->
+            <div class="card">
+                <!-- show image -->
+                <img src="images/donkeykong-nes.webp" alt="donkeykong">
+                <div class="cardcontent">
+                    <!-- display info for the pepperoni pizza -->
+                    <h3>Donkey Kong</h3>
+                    <p>The original Donkey Kong where Users play as Jumpman and in each level have to save Pauline, a pink-clad female character, from the giant ape Donkey Kong.</p>
+                        <!-- show price -->
+                    <p>From $19.99</p>
+                </div>
+            </div>
+            <!-- create card for mario -->
+            <div class="card">
+                <!-- show image -->
+                <img src="images/supermariobros.jpg" alt="mario">
+                <!-- display info for pizza -->
+                <div class="cardcontent">
+                    <h3>Super Mario Bros</h3>
+                    <p>In Super Mario Bros, solo players play as Mario and an additional player can play as Luigi. 
+                        The game is a series of side-scrolling levels filled with enemies ranging from mushroomlike Goombas to evil turtles known as Koopa Troopas.</p>
+                    <!-- display price -->
+                    <p>From $19.99</p>
+                </div>
+            </div>
+        </div>
+        <!-- create button and link it to the order page -->
+        <div class="ordercontainer">
+            <a href=#orderform><button>set up your order</button></a>
+        </div>
+        <br>
+        <br>
         </section>
+        <section class="contact">
+            <form id="orderform">
+            <fieldset >
+                <legend><p>Order Form</p></legend>
+                    <p>Products:</p>
+                    <p>please enter the number of each item you would like. </p>
+                    <p>Nintendo Entertainment System:</p>
+                    <input type="number" class="game" name="game">
+                    <p>Donkey Kong:</p>
+                    <input type="number" class="game" name="game">
+                    <p>Super Mario Bros:</p>
+                    <input type="number" class="game" name="game">
+                    <p>Country:</p>
+                    <input type="text" class="Country" name="Country" required>
+                    <br>
+                    <p>State/Province:</p>
+                    <input type="text" class="State" name="State" required>
+                    <br>
+                    <p>Address:</p>
+                    <input type="text" class="Address" name="Address" required>
+
+                    <p>Card details:</p>
+                    <p>number</p>
+                    <input type="text" class="num" name="num" required>
+                    <p>expiry date</p>
+                    <input type="text" class="date" name="date" required>
+                    <p> CCV</p>
+                    <input type="password" class="pwd" name="pwd" required>
+                    <br>
+            </fieldset>
+            <br>
+            <div class="ordercontainer">
+                <a href=Thanks.html><button>sumbit order</button></a>
+            </div>
+            <br><br><br><br><br><br><!--breaks so button isnt behind footer-->
+    </form>
+</section>
     </main>
-
-
-
     <footer>
         <p class="foot-text">&copy;2024 Nintendo.</p>     <!-- Copyright notice -->
         <nav>
@@ -51,5 +133,4 @@
         </nav>
     </footer>
 </body>
-
 </html>
