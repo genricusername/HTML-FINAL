@@ -230,7 +230,13 @@ footer {
     font-size: 15px;
     line-height: 1.3;
 }
-
+.cardcontainer {
+    display: flex;             /* Use flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically if the container has height */
+    flex-wrap: wrap;           /* Allow cards to wrap to the next line if necessary */
+    margin: 0 auto;            /* Center the container itself if needed */
+}
 .ordercontainer {
     /* create flexbox */
     display: flex;
