@@ -256,8 +256,13 @@ footer {
     border-radius: 20%;
     /* space from footer */
     margin-bottom: 30px;
+    text-decoration: none;
 }
 
+.orderbutton{
+    color: inherit;
+    text-decoration: none;
+}
 .ordercontainer button:hover{
     /* change background and text color */
     background-color: white;
