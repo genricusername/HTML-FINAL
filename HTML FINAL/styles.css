@@ -35,6 +35,13 @@ body {
     box-shadow: 10px 10px rgb(185, 6, 6);
     
 }
+.history{
+    display: flex;             /* Use flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically if the container has height */
+    flex-wrap: wrap;           /* Allow cards to wrap to the next line if necessary */
+    margin: 0 auto;  
+}
 /*contact form stuff */
 .contactbody{
     background-image: url(images/contact-bkg.jpg);
@@ -93,7 +100,7 @@ header {
 
 /* Adjust the logo image size */
 .logo {
-    width: 50px;
+    width: 150px;
     height: auto;
     margin-right: 10px;
 }
@@ -172,6 +179,12 @@ footer {
     color: #ffffff;
     text-decoration: underline;
 }
+.abtfoot{
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
 /* styles for product page */
 .product{
     text-align: center;
@@ -272,12 +285,16 @@ footer {
     cursor: pointer;
 }
 /* background */
-.contact{
+.orderform{
     background-image: url(images/contact-bkg.jpg);
 }
 /* center text for thanks page */
 .thanks{
     text-align: center;
+}
+.thxbut{
+    text-decoration: none;
+    color: inherit;
 }
 /* scroll behavior*/
 html {
